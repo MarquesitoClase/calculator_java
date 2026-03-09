@@ -1,5 +1,5 @@
 package bootcamp.calculator;
 
-public class Calculator {
+public abstract class Calculator {
 
 }
