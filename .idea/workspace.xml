@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b54b40e6-a85b-4e02-927f-fb17bff34720" name="Changes" comment="" />
+    <list default="true" id="b54b40e6-a85b-4e02-927f-fb17bff34720" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/bootcamp/calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bootcamp/calculator/Calculator.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="5" />
+    <option name="cachedIndexableFilesCount" value="10" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -75,7 +77,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1773055788543</updated>
-      <workItem from="1773055860419" duration="424000" />
+      <workItem from="1773055860419" duration="717000" />
     </task>
     <servers />
   </component>
