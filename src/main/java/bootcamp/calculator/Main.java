@@ -1,5 +1,7 @@
 package bootcamp.calculator;
 
+import bootcamp.calculator.calculator.calculator;
+
 import java.util.Scanner;
 
 public class Main {
@@ -21,25 +23,34 @@ public class Main {
         switch(elec){
             case 1:{
                 System.out.println("Escriba el primer número entero:");
+                int1 = scanner.nextInt();
                 System.out.println("El entero a sumarle:");
-                System.out.println("El resultado es "+intRes);
+                int2 = scanner.nextInt();
+                System.out.println("El resultado es "+calculator.integerSum(int1, int2));
             }
             case 2:{
                 System.out.println("Escriba el número entero que es el minuendo:");
+                int1 = scanner.nextInt();
                 System.out.println("El entero que es el sustraendo:");
+                int2 = scanner.nextInt();
+                intRes = calculator.integerSubtraction(int1, int2);
                 System.out.println("El resultado es "+intRes);
             }
             case 3:{
                 System.out.println("Escriba el primer factor:");
+                int1 = scanner.nextInt();
                 System.out.println("El segundo ahora:");
+                int2 = scanner.nextInt();
+                intRes = calculator.integerProduct(int1, int2);
                 System.out.println("El resultado es "+intRes);
             }
             case 4:{
                 System.out.println("Escriba el dividendo:");
+                int1 = scanner.nextInt();
                 System.out.println("ahora el divisor:");
-                intRest = int1%int2;
-                if(intRest!=0) System.out.println("La division no es exacta, y tiene "+intRest+" como resto");
-                System.out.println("El resultado de la division entera es "+int1/int2);
+                int2 = scanner.nextInt();
+                intRes = calculator.integerDivision(int1, int2);
+                System.out.println("El resultado de la division entera es "+intRes);
             }
 
             case 5:{
@@ -48,7 +59,7 @@ public class Main {
                 d1 = scanner.nextDouble();
                 System.out.println("El otro a sumarle:");
                 d2 = scanner.nextDouble();
-                dRes = d1 + d2;
+                dRes = calculator.doubleSum(d1, d2);
                 System.out.println("El resultado es "+dRes);
             }
             case 6:{
@@ -57,7 +68,7 @@ public class Main {
                 d1 = scanner.nextDouble();;
                 System.out.println("E que es el sustraendo:");
                 d2 = scanner.nextDouble();;
-                dRes = d1 - d2;
+                dRes = calculator.doubleSubtraction(d1, d2);
                 System.out.println("El resultado es "+dRes);
             }
             case 7:{
@@ -75,7 +86,7 @@ public class Main {
                 d1 = scanner.nextDouble();
                 System.out.println("ahora el divisor:");
                 d2 = scanner.nextDouble();
-                dRes = d1/d2;
+                dRes = calculator.doubleDivision(d1, d2);
                 System.out.println("El resultado de la division entera es "+dRes);
             }
         }
